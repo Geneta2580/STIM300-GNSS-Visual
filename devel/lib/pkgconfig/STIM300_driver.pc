@@ -1,0 +1,8 @@
+prefix=/home/geneta/project/IC_GVINS_Deploy_ws/devel
+
+Name: STIM300_driver
+Description: Description of STIM300_driver
+Version: 0.0.0
+Cflags: -I/home/geneta/project/IC_GVINS_Deploy_ws/src/STIM300_driver/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs std_msgs serial
