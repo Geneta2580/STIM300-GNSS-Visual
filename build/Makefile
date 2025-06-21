@@ -294,7 +294,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -307,7 +307,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make stim300_driver/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make camera_driver/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -320,7 +320,7 @@ geometry_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make stim300_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make camera_driver/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -333,7 +333,7 @@ geometry_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make stim300_driver/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make camera_driver/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -346,7 +346,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -359,8 +359,21 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named stereo_cam_node
+
+# Build rule for target.
+stereo_cam_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo_cam_node
+.PHONY : stereo_cam_node
+
+# fast build rule for target.
+stereo_cam_node/fast:
+	$(MAKE) -f camera_driver/CMakeFiles/stereo_cam_node.dir/build.make camera_driver/CMakeFiles/stereo_cam_node.dir/build
+.PHONY : stereo_cam_node/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_cpp
@@ -372,7 +385,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make stim300_driver/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make camera_driver/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -385,7 +398,7 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make stim300_driver/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make camera_driver/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -398,7 +411,7 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make stim300_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make camera_driver/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -411,7 +424,7 @@ geometry_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make stim300_driver/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make camera_driver/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -424,7 +437,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/roscpp_generate_messages_py.dir/build.make stim300_driver/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/roscpp_generate_messages_py.dir/build.make camera_driver/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -437,7 +450,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make stim300_driver/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make camera_driver/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -450,7 +463,7 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -463,7 +476,7 @@ sensor_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make stim300_driver/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make camera_driver/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -476,7 +489,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make stim300_driver/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make camera_driver/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -489,7 +502,7 @@ sensor_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make stim300_driver/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make camera_driver/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -502,7 +515,7 @@ sensor_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make stim300_driver/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make camera_driver/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -515,7 +528,7 @@ sensor_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make stim300_driver/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make camera_driver/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -528,7 +541,7 @@ geometry_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make stim300_driver/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make camera_driver/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -541,7 +554,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/std_msgs_generate_messages_py.dir/build.make stim300_driver/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/std_msgs_generate_messages_py.dir/build.make camera_driver/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -554,7 +567,7 @@ sensor_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make stim300_driver/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make camera_driver/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -567,7 +580,7 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make stim300_driver/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make camera_driver/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -580,8 +593,34 @@ geometry_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make stim300_driver/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f camera_driver/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make camera_driver/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_cpp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make camera_driver/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_eus
+
+# Build rule for target.
+roscpp_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
+.PHONY : roscpp_generate_messages_eus
+
+# fast build rule for target.
+roscpp_generate_messages_eus/fast:
+	$(MAKE) -f camera_driver/CMakeFiles/roscpp_generate_messages_eus.dir/build.make camera_driver/CMakeFiles/roscpp_generate_messages_eus.dir/build
+.PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named stim300
@@ -595,32 +634,6 @@ stim300: cmake_check_build_system
 stim300/fast:
 	$(MAKE) -f stim300_driver/CMakeFiles/stim300.dir/build.make stim300_driver/CMakeFiles/stim300.dir/build
 .PHONY : stim300/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_cpp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make stim300_driver/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_eus
-
-# Build rule for target.
-roscpp_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	$(MAKE) -f stim300_driver/CMakeFiles/roscpp_generate_messages_eus.dir/build.make stim300_driver/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
 
 # Help Target
 help:
@@ -650,6 +663,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... stereo_cam_node"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
@@ -667,9 +681,9 @@ help:
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... stim300"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_eus"
+	@echo "... stim300"
 .PHONY : help
 
 

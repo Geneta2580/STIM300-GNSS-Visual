@@ -1,2 +1,2 @@
-stim300_driver
+camera_driver:stim300_driver
 -DCATKIN_DEVEL_PREFIX=/home/geneta/project/IC_GVINS_Deploy_ws/devel -DCMAKE_INSTALL_PREFIX=/home/geneta/project/IC_GVINS_Deploy_ws/install -G Unix Makefiles

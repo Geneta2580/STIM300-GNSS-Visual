@@ -1,0 +1,8 @@
+prefix=/home/geneta/project/IC_GVINS_Deploy_ws/install
+
+Name: camera_driver
+Description: Description of camera_driver
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp image_transport cv_bridge sensor_msgs camera_info_manager

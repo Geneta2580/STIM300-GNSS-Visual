@@ -146,6 +146,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/geneta/project/IC_GVINS_Deploy_ws/build/gtest/cmake_install.cmake")
+  include("/home/geneta/project/IC_GVINS_Deploy_ws/build/camera_driver/cmake_install.cmake")
   include("/home/geneta/project/IC_GVINS_Deploy_ws/build/stim300_driver/cmake_install.cmake")
 
 endif()
