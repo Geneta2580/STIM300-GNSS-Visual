@@ -8,7 +8,7 @@
 StereoCam::StereoCam(ros::NodeHandle& nh, ros::NodeHandle& private_nh) :
     nh_(nh),
     private_nh_(private_nh),
-    it_(nh) // Initialize ImageTransport with the public NodeHandle
+    it_(nh) // Initialize ImageTransport with the public NodeHandle，构造函数中做部分初始化
 {
     // 参数设置
     private_nh_.param("device_id", device_id_, 0);
@@ -44,7 +44,7 @@ StereoCam::StereoCam(ros::NodeHandle& nh, ros::NodeHandle& private_nh) :
 
 StereoCam::~StereoCam() {
     if (cap_.isOpened()) {
-        cap_.release();
+        cap_.release();  // 关闭摄像头
     }
 }
 

@@ -1,5 +1,5 @@
-#ifndef STIM300_H
-#define STIM300_H
+#ifndef STIM300_DRIVER_H
+#define STIM300_DRIVER_H
 
 #include <ros/ros.h>
 #include <sensor_msgs/Imu.h>

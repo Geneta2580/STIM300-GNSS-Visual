@@ -1,0 +1,8 @@
+prefix=/home/geneta/project/IC_GVINS_Deploy_ws/install
+
+Name: gnss_driver
+Description: Description of gnss_driver
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs std_msgs serial

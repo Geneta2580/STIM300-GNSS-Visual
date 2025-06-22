@@ -437,6 +437,12 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
+gnss_driver_BINARY_DIR:STATIC=/home/geneta/project/IC_GVINS_Deploy_ws/build/gnss_driver
+
+//Value Computed by CMake
+gnss_driver_SOURCE_DIR:STATIC=/home/geneta/project/IC_GVINS_Deploy_ws/src/gnss_driver
+
+//Value Computed by CMake
 googletest-distribution_BINARY_DIR:STATIC=/home/geneta/project/IC_GVINS_Deploy_ws/build/gtest
 
 //Value Computed by CMake
@@ -675,7 +681,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
